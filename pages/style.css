@@ -37,6 +37,7 @@
 @import url(../blocks/services/__nav/services__nav.css);
 @import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__icon/services__icon.css);
+@import url(../blocks/services/__image-wrapper/services__image-wrapper.css);
 
 @import url(../blocks/title/_visible/title_visible.css);
 @import url(../blocks/title/_invisible/title_invisible.css);
