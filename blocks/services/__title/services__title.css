@@ -1,0 +1,9 @@
+.services__title {
+  padding: 2px 16px 2px 16px;
+}
+
+@media (min-width: 768px) {
+  .services__title {
+    padding: 2px 0 2px 25px;
+  }
+}

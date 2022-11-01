@@ -1,0 +1,9 @@
+.page__services {
+  padding-top: 24px;
+}
+
+@media (min-width: 768px) {
+  .services {
+    padding-top: 0;
+  }
+}

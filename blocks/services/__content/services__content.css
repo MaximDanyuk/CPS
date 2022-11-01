@@ -5,8 +5,7 @@
 @media (min-width: 600px) {
   .services__content {
     display: flex;
-    margin-top: 32px;
-    padding-bottom: 40px;
+    margin: 32px 0 40px 0;
   }
 }
 

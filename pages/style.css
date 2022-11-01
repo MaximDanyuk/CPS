@@ -4,6 +4,7 @@
 
 /* ..........page.......... */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__services/page__services.css);
 
 @import url(../blocks/burger/burger.css);
 
@@ -24,7 +25,6 @@
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/nav/__items/nav__items.css);
 @import url(../blocks/nav/__link/nav__link.css);
-@import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__item/_active/nav__item_active.css);
 
 @import url(../blocks/services/__content/services__content.css);
@@ -32,7 +32,11 @@
 @import url(../blocks/services/__link/services__link.css);
 @import url(../blocks/services/__text-content/services__text-content.css);
 @import url(../blocks/services/__text/services__text.css);
+@import url(../blocks/services/__text/_regular/services__text_regular.css);
 @import url(../blocks/services/services.css);
+@import url(../blocks/services/__nav/services__nav.css);
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__icon/services__icon.css);
 
 @import url(../blocks/title/_visible/title_visible.css);
 @import url(../blocks/title/_invisible/title_invisible.css);

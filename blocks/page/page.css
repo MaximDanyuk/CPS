@@ -1,6 +1,14 @@
+h1,
+p,
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 .page {
   width: 100%;
   min-width: 320px;
-  font-family: TTLakes sans-serif;
+  font-family: TTLakes;
   font-weight: 300;
 }

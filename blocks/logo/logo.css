@@ -1,7 +1,7 @@
 .logo {
   width: 96px;
   height: 51px;
-  padding-right: 17px;
+  margin-right: 17px;
 }
 
 @media (min-width: 768px) {
