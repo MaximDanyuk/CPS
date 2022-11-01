@@ -1,0 +1,22 @@
+.nav__items {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Убираем сам скролл */
+}
+/* Убираем сам скролл */
+.nav__items::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media (min-width: 768px) {
+  .nav__items {
+    overflow: visible;
+    flex-wrap: wrap;
+  }
+}

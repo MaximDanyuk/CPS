@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  column-gap: 16px;
+  padding: 19px 16px 18px 16px;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .header {
+    padding: 19px 24px 18px 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-color: #f8f8f8;
+    padding: 42px 25px 0 0;
+  }
+}

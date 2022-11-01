@@ -1,0 +1,21 @@
+.services__text {
+  overflow: hidden;
+  height: 90px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 600px) {
+  .services__text {
+    height: 160px;
+  }
+}
+
+@media (min-width: 768px) {
+  .services__text {
+    height: auto;
+    max-width: 1800px;
+  }
+}

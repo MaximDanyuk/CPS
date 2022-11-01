@@ -1,0 +1,39 @@
+/* ..........vendor.......... */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/* ..........page.......... */
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/burger/burger.css);
+
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/_invisible/header__links_invisible.css);
+@import url(../blocks/header/__links/_pseudo/header__links_pseudo.css);
+@import url(../blocks/header/__links/_tablet/header__links_tablet.css);
+@import url(../blocks/header/__links/_desktop/header__links_desktop.css);
+
+@import url(../blocks/icon/__link/icon__link.css);
+@import url(../blocks/icon/__text/icon__text.css);
+@import url(../blocks/icon/icon.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__items/nav__items.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__item/_active/nav__item_active.css);
+
+@import url(../blocks/services/__content/services__content.css);
+@import url(../blocks/services/__image/services__image.css);
+@import url(../blocks/services/__link/services__link.css);
+@import url(../blocks/services/__text-content/services__text-content.css);
+@import url(../blocks/services/__text/services__text.css);
+@import url(../blocks/services/services.css);
+
+@import url(../blocks/title/_visible/title_visible.css);
+@import url(../blocks/title/_invisible/title_invisible.css);
+@import url(../blocks/title/title.css);

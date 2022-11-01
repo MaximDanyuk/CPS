@@ -1,0 +1,11 @@
+.icon__text {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .icon__text {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+}
