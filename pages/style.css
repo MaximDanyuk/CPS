@@ -6,7 +6,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__services/page__services.css);
 
-@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger-icon/burger-icon.css);
 
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -42,3 +42,118 @@
 @import url(../blocks/title/_visible/title_visible.css);
 @import url(../blocks/title/_invisible/title_invisible.css);
 @import url(../blocks/title/title.css);
+
+.burger {
+  background-color: #ffffff;
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffffff;
+  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
+    16px 0px 52px rgba(14, 24, 80, 0.2);
+  display: none;
+}
+
+.burger__header {
+  display: flex;
+  column-gap: 17px;
+  margin: 19px 24px 0 24px;
+  align-items: center;
+}
+
+.burger__icon {
+  margin-left: auto;
+}
+
+.burger__nav {
+  margin-top: 50px;
+}
+
+.burger__items {
+  overflow: visible;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.burger__item_active {
+  border: none;
+  border-left: 4px solid #41f6d7;
+}
+
+.burger__item {
+  padding: 0 0 0 24px;
+}
+
+.burger__link {
+  color: #1b1c21;
+}
+
+.burger__logo-wrapper {
+  list-style-type: none;
+}
+
+.burger__contacts {
+  margin: 268px 0 0 24px;
+}
+
+.burger__icons {
+  display: flex;
+  column-gap: 16px;
+}
+
+.email {
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+}
+
+.burger__email {
+  margin-top: 16px;
+}
+
+.burger__number {
+  margin-top: 12px;
+}
+
+.langs {
+  display: flex;
+  column-gap: 7px;
+}
+
+.burger__langs {
+  margin: 40px 0 32px 24px;
+}
+
+.langs__item {
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.langs__button {
+  background-color: inherit;
+  border: none;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+.langs__item_active {
+  color: #7e7e82;
+}
+
+.burger__logo {
+  display: block;
+}
+/* ТЕНИ */

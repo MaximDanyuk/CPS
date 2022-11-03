@@ -5,6 +5,7 @@
   background-color: #ffffff;
   width: 100%;
   box-sizing: border-box;
+  align-items: center;
 }
 
 @media (min-width: 600px) {
