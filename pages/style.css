@@ -6,15 +6,8 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__services/page__services.css);
 
-@import url(../blocks/burger-icon/burger-icon.css);
-
-@import url(../blocks/header/__links/header__links.css);
-@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__items/header__items.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__links/_invisible/header__links_invisible.css);
-@import url(../blocks/header/__links/_pseudo/header__links_pseudo.css);
-@import url(../blocks/header/__links/_tablet/header__links_tablet.css);
-@import url(../blocks/header/__links/_desktop/header__links_desktop.css);
 
 @import url(../blocks/icon/__link/icon__link.css);
 @import url(../blocks/icon/__text/icon__text.css);
@@ -25,135 +18,48 @@
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/nav/__items/nav__items.css);
 @import url(../blocks/nav/__link/nav__link.css);
-@import url(../blocks/nav/__item/_active/nav__item_active.css);
 
 @import url(../blocks/services/__content/services__content.css);
 @import url(../blocks/services/__image/services__image.css);
-@import url(../blocks/services/__link/services__link.css);
+@import url(../blocks/services/__button/services__button.css);
 @import url(../blocks/services/__text-content/services__text-content.css);
 @import url(../blocks/services/__text/services__text.css);
 @import url(../blocks/services/__text/_regular/services__text_regular.css);
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__nav/services__nav.css);
-@import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__icon/services__icon.css);
 @import url(../blocks/services/__image-wrapper/services__image-wrapper.css);
 
-@import url(../blocks/title/_visible/title_visible.css);
-@import url(../blocks/title/_invisible/title_invisible.css);
 @import url(../blocks/title/title.css);
+@import url(../blocks/navigation/__title/navigation__title.css);
+@import url(../blocks/light-line/light-line.css);
 
-.burger {
-  background-color: #ffffff;
-  width: 320px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #ffffff;
-  box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
-    16px 0px 52px rgba(14, 24, 80, 0.2);
-  display: none;
-}
+@import url(../blocks/burger/__contacts/burger__contacts.css);
+@import url(../blocks/burger/__elements/burger__elements.css);
+@import url(../blocks/burger/__email/burger__email.css);
+@import url(../blocks/burger/__header/burger__header.css);
+@import url(../blocks/burger/__icon/burger__icon.css);
+@import url(../blocks/burger/__icons/burger__icons.css);
+@import url(../blocks/burger/__item/burger__item.css);
+@import url(../blocks/burger/__items/burger__items.css);
+@import url(../blocks/burger/__langs/burger__langs.css);
+@import url(../blocks/burger/__link/burger__link.css);
+@import url(../blocks/burger/__logo-wrapper.css/burger__logo-wrapper.css);
+@import url(../blocks/burger/__logo/burger__logo.css);
+@import url(../blocks/burger/__number/burger__number.css);
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/__item/_active/burger__item_active.css);
 
-.burger__header {
-  display: flex;
-  column-gap: 17px;
-  margin: 19px 24px 0 24px;
-  align-items: center;
-}
+@import url(../blocks/email/email.css);
+@import url(../blocks/number/number.css);
+@import url(../blocks/langs/langs.css);
+@import url(../blocks/langs/__item/langs__item.css);
+@import url(../blocks/langs/__button/langs__button.css);
+@import url(../blocks/langs/__item/_active/langs__item_active.css);
+@import url(../blocks/icon/__button/icon__button.css);
+@import url(../blocks/icon/__image/icon__image.css);
+@import url(../blocks/icon/__image-wrapper/icon__image-wrapper.css);
 
-.burger__icon {
-  margin-left: auto;
-}
+@import url(../blocks/header/__item/header__item.css);
 
-.burger__nav {
-  margin-top: 50px;
-}
-
-.burger__items {
-  overflow: visible;
-  flex-direction: column;
-  row-gap: 30px;
-}
-
-.burger__item_active {
-  border: none;
-  border-left: 4px solid #41f6d7;
-}
-
-.burger__item {
-  padding: 0 0 0 24px;
-}
-
-.burger__link {
-  color: #1b1c21;
-}
-
-.burger__logo-wrapper {
-  list-style-type: none;
-}
-
-.burger__contacts {
-  margin: 268px 0 0 24px;
-}
-
-.burger__icons {
-  display: flex;
-  column-gap: 16px;
-}
-
-.email {
-  font-size: 16px;
-  line-height: 24px;
-  cursor: pointer;
-}
-
-.number {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 900;
-  letter-spacing: -0.6px;
-  letter-spacing: -0.2px;
-  cursor: pointer;
-}
-
-.burger__email {
-  margin-top: 16px;
-}
-
-.burger__number {
-  margin-top: 12px;
-}
-
-.langs {
-  display: flex;
-  column-gap: 7px;
-}
-
-.burger__langs {
-  margin: 40px 0 32px 24px;
-}
-
-.langs__item {
-  list-style-type: none;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.2px;
-}
-
-.langs__button {
-  background-color: inherit;
-  border: none;
-  padding: 0;
-  color: inherit;
-  cursor: pointer;
-}
-
-.langs__item_active {
-  color: #7e7e82;
-}
-
-.burger__logo {
-  display: block;
-}
-/* ТЕНИ */
+@import url(../blocks/services/__content/services__content.css);

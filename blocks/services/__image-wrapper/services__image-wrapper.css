@@ -1,0 +1,16 @@
+.services__image-wrapper {
+  min-width: 320px;
+  min-height: 176px;
+}
+
+@media (min-width: 600px) {
+  .services__image-wrapper {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 738px) {
+  .services__image-wrapper {
+    margin-right: 32px;
+  }
+}

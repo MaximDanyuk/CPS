@@ -1,0 +1,9 @@
+.icon__button {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}

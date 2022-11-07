@@ -1,8 +1,9 @@
 .icon__text {
   display: none;
+  order: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 738px) {
   .icon__text {
     display: block;
     padding: 0;

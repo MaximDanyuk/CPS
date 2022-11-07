@@ -1,15 +1,5 @@
 .services__image {
-  margin: 27px 0;
   width: 100%;
-  min-width: 320px;
-  min-height: 176px;
   height: auto;
   object-fit: cover;
-  border-radius: 7px;
-}
-
-@media (min-width: 600px) {
-  .services__image {
-    margin: 0 20px 0 0;
-  }
 }

@@ -12,7 +12,7 @@
   height: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 738px) {
   .nav__items {
     overflow: visible;
     flex-wrap: wrap;

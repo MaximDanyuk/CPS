@@ -10,77 +10,93 @@
   <body>
     <div class="page">
       <header class="header">
-        <div class="burger-icon">
-          <img
-            src="./images/icon-1.svg"
-            alt="Бургер-меню"
-            class="burger-icon__image"
-          />
-        </div>
-        <h1 class="title title_visible header__title services__title">
-          Услуги и сервисы
-        </h1>
-        <a href="#"><img src="./images/logo.svg" alt="Логотип CPS" class="logo" /></a>
-        
+        <ul class="header__items">
+          <li class="icon header__item">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+            </button>
+          </li>
 
-        <ul
-          class="header__links header__links_invisible header__links_tablet header__links_desktop"
-        >
-          <li class="icon">
-            <a class="icon__link" href="#"
-              ><img
-                class="icon__image"
-                src="./images/icon-2.svg"
-                alt="Иконка поддержки"
-            /></a>
+          <li class="icon header__item">
+            <a href="#"
+              ><img src="./images/logo.svg" alt="Логотип CPS" class="logo" />
+            </a>
           </li>
-          <li class="icon">
-            <a class="icon__link" href="#"
-              ><img
-                class="icon__image"
-                src="./images/icon-2.svg"
-                alt="Иконка сообщений"
-            /></a>
-          </li>
-          <li class="icon">
-            <a class="icon__link" href="#"
-              ><img
-                class="icon__image"
-                src="./images/icon-3.svg"
-                alt="Иконка регистрации"
-            /></a>
-          </li>
-        </ul>
 
-        <ul class="header__links header__links_pseudo">
-          <li class="icon">
-            <a class="icon__link" href="#">
-              <p class="icon__text">Оставить заявку</p>
-              <img
-                class="icon__image"
-                src="./images/icon-4.svg"
-                alt="Иконка поддержки"
-            /></a>
+          <li class="icon modificator header__item">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+            </button>
           </li>
-          <li class="icon">
-            <a class="icon__link" href="#">
-              <p class="icon__text">Статус ремонта</p>
-              <img
-                class="icon__image"
-                src="./images/icon-5.svg"
-                alt="Иконка поиска"
-            /></a>
+
+          <li class="icon header__item">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+            </button>
+          </li>
+
+          <li class="icon header__item">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+            </button>
+          </li>
+
+          <li class="icon header__item">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+              <span class="icon__text">Оставить заявку</span>
+            </button>
+          </li>
+
+          <li class="icon header__item">
+            <button class="icon__button">
+              <span class="icon__image-wrapper"
+                ><img
+                  class="icon__image"
+                  src="./images/icon-5.svg"
+                  alt="Иконка регистрации"
+              /></span>
+
+              <span class="icon__text">Статус ремонта</span>
+            </button>
           </li>
         </ul>
       </header>
 
       <main class="main">
-        <section class="services page__services">
-          <h1 class="title services__title title_invisible">
-            Услуги и сервисы
-          </h1>
-
-          <nav class="nav services__nav">
+        <section class="navigation">
+          <h1 class="title navigation__title light-line">Услуги и сервисы</h1>
+          <nav class="nav navigation__nav">
             <ul class="nav__items">
               <li class="nav__item nav__item_active">
                 <a href="#" class="nav__link">Ремонтируемые бренды</a>
@@ -102,28 +118,33 @@
               </li>
             </ul>
           </nav>
+        </section>
 
+        <section class="services page__services">
           <div class="services__content">
-            <div class="services__text-content">
-              <p class="services__text services__text_regular">
-                Мы являемся авторизованным сервисным центром по ремонту техники
-                Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
-                официальной гарантией производителя. Мы успешно работаем с 1992
-                года и заслужили репутацию надежного партнера, что подтверждает
-                большое количество постоянных клиентов. Мы гордимся тем, что к
-                нам обращаются по рекомендациям и, в свою очередь, советуют нас
-                родным и близким.
-              </p>
-              <a class="services__link" href="#"
-                ><img
-                  class="services__icon"
-                  src="./images/arrow.svg"
-                  alt="Иконка читать далее"
-                />
-                <span class="services__link-text">Читать далее</span>
-              </a>
-            </div>
+            <p class="services__text services__text_regular">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя.
+            </p>
 
+            <p class="services__text services__text_regular">
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного
+              партнера, что подтверждает большое количество постоянных клиентов.
+              Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.
+            </p>
+
+            <button class="services__button" href="#">
+              <img
+                class="services__icon"
+                src="./images/arrow.svg"
+                alt="Иконка читать далее"
+              />
+              <span class="services__link-text">Читать далее</span>
+            </button>
+          </div>
+          <div class="services__image-wrapper">
             <img
               src="./images/content-image.png"
               alt="Фото нашего офиса"
@@ -132,111 +153,121 @@
           </div>
         </section>
       </main>
-<!--  -->
-<!--  -->
-<!--  -->
-<div class="burger">
-  <ul class="burger__header">
-    <li class="icon">
-      <a class="icon__link" href="#"
-        ><img
-          class="icon__image"
-          src="./images/icon-2.svg"
-          alt="Иконка поддержки"
-      /></a>
-    </li>
-    <li class="burger__logo-wrapper">
-      <a href="#"><img src="./images/logo.svg" alt="Логотип CPS" class="logo burger__logo" /></a>
-    </li>
-   
-    <li class="icon burger__icon">
-      <a class="icon__link" href="#"
-        ><img
-          class="icon__image"
-          src="./images/icon-2.svg"
-          alt="Иконка поддержки"
-      /></a>
-      </li>
-  </ul>
 
+      <div class="burger">
+        <ul class="burger__items">
+          <li class="icon">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+            </button>
+          </li>
 
-  
+          <li class="icon">
+            <a href="#"
+              ><img
+                src="./images/logo.svg"
+                alt="Логотип CPS"
+                class="logo burger__logo"
+              />
+            </a>
+          </li>
 
-  <nav class="nav burger__nav">
-    <ul class="nav__items burger__items">
-      <li class="nav__item nav__item_active burger__item_active">
-        <a href="#" class="nav__link">Ремонтируемые бренды</a>
-      </li>
-      <li class="nav__item burger__item">
-        <a href="#" class="nav__link burger__link">Ремонтируемые устройства</a>
-      </li>
-      <li class="nav__item burger__item">
-        <a href="#" class="nav__link burger__link">Цены на услуги</a>
-      </li>
-      <li class="nav__item burger__item">
-        <a href="#" class="nav__link burger__link">Адреса сервисных центров</a>
-      </li>
-      <li class="nav__item burger__item">
-        <a href="#" class="nav__link burger__link">Специальные цены</a>
-      </li>
-      <li class="nav__item burger__item">
-        <a href="#" class="nav__link burger__link">Отзывы</a>
-      </li>
-    </ul>
-  </nav>
+          <li class="icon burger__icon">
+            <button class="icon__button">
+              <span class="icon__image-wrapper">
+                <img
+                  class="icon__image"
+                  src="./images/icon-4.svg"
+                  alt="Иконка регистрации"
+                />
+              </span>
+            </button>
+          </li>
+        </ul>
 
-<div  class="burger__contacts">
-  <ul
-  class="burger__icons"
->
-  <li class="icon">
-    <a class="icon__link" href="#"
-      ><img
-        class="icon__image"
-        src="./images/icon-2.svg"
-        alt="Иконка поддержки"
-    /></a>
-  </li>
-  <li class="icon">
-    <a class="icon__link" href="#"
-      ><img
-        class="icon__image"
-        src="./images/icon-2.svg"
-        alt="Иконка сообщений"
-    /></a>
-  </li>
-  <li class="icon">
-    <a class="icon__link" href="#"
-      ><img
-        class="icon__image"
-        src="./images/icon-3.svg"
-        alt="Иконка регистрации"
-    /></a>
-  </li>
-</ul>
-<p class="email burger__email">mail@cps.com</p>
-<p class="number burger__number ">8 800 890 8900</p>
+        <ul class="burger__elements">
+          <li class="nav__item burger__item burger__item_active light-line">
+            <a href="#" class="nav__link">Ремонтируемые бренды</a>
+          </li>
+          <li class="nav__item burger__item">
+            <a href="#" class="nav__link burger__link"
+              >Ремонтируемые устройства</a
+            >
+          </li>
+          <li class="nav__item burger__item">
+            <a href="#" class="nav__link burger__link">Цены на услуги</a>
+          </li>
+          <li class="nav__item burger__item">
+            <a href="#" class="nav__link burger__link"
+              >Адреса сервисных центров</a
+            >
+          </li>
+          <li class="nav__item burger__item">
+            <a href="#" class="nav__link burger__link">Специальные цены</a>
+          </li>
+          <li class="nav__item burger__item">
+            <a href="#" class="nav__link burger__link">Отзывы</a>
+          </li>
+        </ul>
 
-</div>
+        <div class="burger__contacts">
+          <ul class="burger__icons">
+            <li class="icon">
+              <button class="icon__button">
+                <span class="icon__image-wrapper">
+                  <img
+                    class="icon__image"
+                    src="./images/icon-4.svg"
+                    alt="Иконка регистрации"
+                  />
+                </span>
+              </button>
+            </li>
+            <li class="icon">
+              <button class="icon__button">
+                <span class="icon__image-wrapper">
+                  <img
+                    class="icon__image"
+                    src="./images/icon-4.svg"
+                    alt="Иконка регистрации"
+                  />
+                </span>
+              </button>
+            </li>
+            <li class="icon">
+              <button class="icon__button">
+                <span class="icon__image-wrapper">
+                  <img
+                    class="icon__image"
+                    src="./images/icon-4.svg"
+                    alt="Иконка регистрации"
+                  />
+                </span>
+              </button>
+            </li>
+          </ul>
+          <p class="email burger__email">mail@cps.com</p>
+          <p class="number burger__number">8 800 890 8900</p>
+        </div>
 
-    <ul class="langs burger__langs">
-      
-
-      <li class="langs__item langs__item_active"><button type="button" class="langs__button">RU</button></li>
-      
-      <li class="langs__item"><button type="button" class="langs__button">EN</button></li>
-      
-      <li class="langs__item"><button type="button" class="langs__button">CH</button></li>
-    </ul>
-
-    
-
-
-</div>
-      
-<!--  -->
-<!--  -->
-      </li>
+        <ul class="langs burger__langs">
+          <li class="langs__item langs__item_active">
+            <button type="button" class="langs__button">RU</button>
+          </li>
+          <li class="langs__item">
+            <button type="button" class="langs__button">EN</button>
+          </li>
+          <li class="langs__item">
+            <button type="button" class="langs__button">CH</button>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

@@ -1,8 +1,9 @@
 .title {
-  margin: 0;
-  border-left: 4px solid #41f6d7;
   font-size: 28px;
   line-height: 40px;
   letter-spacing: -0.6px;
   font-weight: 700;
+  width: 240px;
+  margin: 0;
+  position: relative;
 }

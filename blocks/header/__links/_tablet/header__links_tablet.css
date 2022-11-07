@@ -1,8 +1,0 @@
-@media (min-width: 600px) {
-  .header__links_tablet {
-    display: flex;
-    margin-right: 20px;
-    margin-left: auto;
-    /* Прижал к краю */
-  }
-}

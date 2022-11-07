@@ -1,0 +1,5 @@
+.burger__item_active {
+  position: relative;
+  padding: 9px 0 0 22px;
+  margin: 0;
+}
