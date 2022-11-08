@@ -11,9 +11,3 @@
     column-gap: 48px;
   }
 }
-
-@media (min-width: 738px) {
-  .services {
-    margin-top: 17px;
-  }
-}

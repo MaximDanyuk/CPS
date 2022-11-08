@@ -63,3 +63,125 @@
 @import url(../blocks/header/__item/header__item.css);
 
 @import url(../blocks/services/__content/services__content.css);
+
+.burger {
+  display: none;
+}
+
+.brands__title {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: #7e7e82;
+  /*    title   */
+  background-color: #f8f8f8;
+  padding: 16px;
+}
+
+.brands__items {
+  background-color: #f2f2f2;
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(8, 240px);
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding: 16px;
+}
+
+.brands__items::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.brands__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  height: 72px;
+  padding: 0 16px;
+}
+
+.brands__link {
+  font-size: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.more-button {
+  color: #1b1c21;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  border: none;
+  background-color: inherit;
+  padding: 0;
+}
+
+.brands__more {
+  margin-left: 16px;
+}
+
+.main {
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 768px) {
+  .brands__title {
+    padding: 16px 24px;
+  }
+
+  .brands__items {
+    column-gap: 24px;
+    row-gap: 16px;
+    grid-template-columns: repeat(auto-fill, 224px);
+    overflow: visible;
+    padding: 24px;
+  }
+
+  .brands__item_tablet {
+    display: none;
+  }
+}
+
+.services__icon_rotate {
+  transform: rotate(180deg);
+}
+
+.brands__item_invisible {
+  display: none;
+}
+
+.brands__item_visible {
+  display: flex;
+}
+
+@media (min-width: 1120px) {
+  .brands__title {
+    padding: 16px 32px;
+  }
+
+  .brands__items {
+    column-gap: 32px;
+    grid-template-columns: repeat(auto-fill, 240px);
+  }
+
+  .brands__item_tablet {
+    display: flex;
+  }
+}
+
+.services__text_visible {
+  height: auto;
+  display: block;
+}

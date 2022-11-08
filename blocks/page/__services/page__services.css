@@ -7,9 +7,3 @@
     padding-top: 32px;
   }
 }
-
-@media (min-width: 738px) {
-  .page__services {
-    padding-top: 0;
-  }
-}

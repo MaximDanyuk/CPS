@@ -1,14 +1,11 @@
-.services__text {
-  overflow: hidden;
-}
-
-.services__text:nth-child(2) {
+.services__text_hidden {
   display: none;
 }
 
 @media (min-width: 600px) {
-  .services__text:nth-child(2) {
+  .services__text_hidden {
+    overflow: hidden;
     display: block;
-    height: 40px;
+    height: 38px;
   }
 }
