@@ -1,0 +1,10 @@
+.icon__image-wrapper {
+  position: relative;
+  background-color: #ff3e79;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

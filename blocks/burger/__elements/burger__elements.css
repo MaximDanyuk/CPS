@@ -1,7 +1,0 @@
-.burger__elements {
-  display: flex;
-  flex-direction: column;
-  row-gap: 32px;
-  align-items: flex-start;
-  margin-top: 47px;
-}

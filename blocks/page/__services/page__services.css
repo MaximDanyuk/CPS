@@ -1,9 +1,0 @@
-.page__services {
-  padding-top: 24px;
-}
-
-@media (min-width: 600px) {
-  .page__services {
-    padding-top: 32px;
-  }
-}

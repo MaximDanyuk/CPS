@@ -1,0 +1,21 @@
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Убираем сам скролл */
+}
+/* Убираем сам скролл */
+.nav__list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media (min-width: 738px) {
+  .nav__list {
+    overflow: visible;
+    flex-wrap: wrap;
+    column-gap: 15px;
+  }
+}

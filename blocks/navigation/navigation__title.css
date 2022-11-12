@@ -1,0 +1,13 @@
+.navigation__title {
+  padding-left: 20px;
+}
+@media (min-width: 738px) {
+  .navigation__title {
+    order: -1;
+    flex-grow: 1;
+  }
+
+  .navigation__title {
+    padding-left: 30px;
+  }
+}

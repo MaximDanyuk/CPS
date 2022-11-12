@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "swiper": "^8.4.4"
-  }
+  },
+  "name": "1.3",
+  "description": "На вебинаре один наставник показал, но тогда не прошел БЭМ валидацию и забросил это дело, сейчас вроде прошел, что ты скажешь буду ждать",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximDanyuk/1.3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximDanyuk/1.3/issues"
+  },
+  "homepage": "https://github.com/MaximDanyuk/1.3#readme"
 }
