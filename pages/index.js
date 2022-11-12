@@ -1,4 +1,4 @@
-const brandsButtonMore = document.querySelector(".brands__more");
+const brandsButtonMore = document.querySelector(".brand__more-button");
 const servicesButton = document.querySelector(".services__button");
 
 function showMore({

@@ -6,3 +6,7 @@
   visibility: hidden;
   cursor: pointer;
 }
+
+.langs__input:checked + .langs__text {
+  color: #7e7e82;
+}

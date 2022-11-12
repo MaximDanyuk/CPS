@@ -1,0 +1,32 @@
+.section__items {
+  background-color: #f2f2f2;
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, 240px);
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-top: 16px;
+}
+
+.section__items::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media (min-width: 738px) {
+  .section__items {
+    column-gap: 24px;
+    row-gap: 16px;
+    grid-template-columns: repeat(auto-fill, 224px);
+    overflow: visible;
+    margin-top: 24px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .section__items {
+    column-gap: 30px;
+    grid-template-columns: repeat(auto-fill, 240px);
+  }
+}

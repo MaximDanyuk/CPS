@@ -4,6 +4,9 @@
 
 /* ..........page.......... */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/page__section.css);
+@import url(../blocks/page/page__navigation.css);
+@import url(../blocks/page/page__header.css);
 
 @import url(../blocks/header/header__items.css);
 @import url(../blocks/header/header.css);
@@ -19,6 +22,8 @@
 @import url(../blocks/nav/nav__link.css);
 
 @import url(../blocks/section/section__content.css);
+@import url(../blocks/section/section__title.css);
+@import url(../blocks/section/section__items.css);
 @import url(../blocks/more-button/more-button__image.css);
 @import url(../blocks/services/services__text-content.css);
 @import url(../blocks/section/section__text-box_hidden.css);
@@ -26,6 +31,8 @@
 @import url(../blocks/services/services.css);
 @import url(../blocks/more-button/more-button__icon.css);
 @import url(../blocks/more-button/more-button__image-wrapper.css);
+@import url(../blocks/more-button/more-button__link-text.css);
+@import url(../blocks/more-button/more-button.css);
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/navigation/navigation__title.css);
@@ -45,9 +52,11 @@
 @import url(../blocks/burger/burger__number.css);
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/burger/burger__item_active.css);
-
+@import url(../blocks/burger/burger__nav.css);
 @import url(../blocks/email/email__text.css);
+@import url(../blocks/email/email.css);
 @import url(../blocks/number/number__text.css);
+@import url(../blocks/number/number.css);
 @import url(../blocks/langs/langs.css);
 @import url(../blocks/langs/langs__text.css);
 @import url(../blocks/langs/langs__input.css);
@@ -56,183 +65,16 @@
 
 @import url(../blocks/header/header__item.css);
 
-@import url(../blocks/services/services__content.css);
+@import url(../blocks/brand/brand.css);
+@import url(../blocks/brand/brand__link.css);
+@import url(../blocks/brand/brand__more-button.css);
 
-.langs__input:checked + .langs__text {
-  color: #7e7e82;
-}
+@import url(../blocks/main/main.css);
 
-.number {
-  display: block;
-}
+@import url(../blocks/services/services__icon_rotate.css);
 
-.email {
-  display: block;
-}
+@import url(../blocks/section/section__text_visible.css);
+@import url(../blocks/section/section__item_invisible.css);
+@import url(../blocks/section/section__item_visible.css);
 
-.burger__nav {
-  flex-grow: 1;
-  margin-top: 47px;
-}
-
-.page__section {
-  padding: 0 16px;
-  margin-top: 24px;
-}
-
-.page___havigation {
-  margin: 0 20px;
-}
-
-@media (min-width: 738px) {
-  .page__section {
-    padding: 0 34px;
-    margin-top: 32px;
-  }
-
-  .page___havigation {
-    margin: 0 24px;
-  }
-
-  .page__header {
-    padding-bottom: 10px;
-  }
-}
-
-.page__header {
-  padding-bottom: 24px;
-}
-
-.burger {
-  height: 100vh;
-  padding: 18px 24px 32px 24px;
-  display: flex;
-  display: none;
-  flex-direction: column;
-}
-
-.section__title {
-  margin: 0;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.2px;
-  text-transform: uppercase;
-  color: #7e7e82;
-  /*    title   */
-  background-color: #f8f8f8;
-  padding: 16px;
-}
-
-.section__items {
-  background-color: #f2f2f2;
-  column-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(6, 240px);
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  margin-top: 16px;
-}
-
-.section__items::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-.brand {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #eaeaea;
-  border-radius: 6px;
-  box-sizing: border-box;
-  background-color: #ffffff;
-  height: 72px;
-  padding: 0 16px;
-}
-
-.brand__link {
-  font-size: 0;
-  height: 40px;
-  width: 40px;
-}
-
-.more-button__link-text {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.2px;
-  font-weight: 500;
-  color: #1b1c21;
-}
-
-.more-button {
-  display: flex;
-  column-gap: 8px;
-  align-items: center;
-  cursor: pointer;
-}
-
-.brands__more {
-  margin-top: 20px;
-  display: none;
-}
-
-@media (min-width: 738px) {
-  .brands__more {
-    display: flex;
-  }
-}
-
-.main {
-  background-color: #f2f2f2;
-}
-
-@media (min-width: 738px) {
-  .section__title {
-    padding: 16px 24px;
-  }
-
-  .section__items {
-    column-gap: 24px;
-    row-gap: 16px;
-    grid-template-columns: repeat(auto-fill, 224px);
-    overflow: visible;
-    margin-top: 24px;
-  }
-
-  .section__item_tablet {
-    display: none;
-  }
-}
-
-.services__icon_rotate {
-  transform: rotate(180deg);
-}
-
-.section__item_invisible {
-  display: none;
-}
-
-.section__item_visible {
-  display: block;
-}
-
-@media (min-width: 1120px) {
-  .section__title {
-    padding: 16px 32px;
-  }
-
-  .section__items {
-    column-gap: 30px;
-    grid-template-columns: repeat(auto-fill, 240px);
-  }
-
-  .section__item_tablet {
-    display: block;
-  }
-}
-
-.section__text_visible {
-  height: auto;
-  display: block;
-}
+@import url(../blocks/section/section__item_tablet.css);
