@@ -1,0 +1,13 @@
+.modal__items {
+  display: flex;
+  column-gap: 17px;
+  padding: 0;
+  align-items: center;
+}
+
+/* .modal__items 
+      display: flex
+      column-gap: 17px
+      padding: 0
+      align-items: center
+*/

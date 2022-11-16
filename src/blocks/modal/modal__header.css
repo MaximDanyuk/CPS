@@ -1,0 +1,13 @@
+.modal__header {
+  display: flex;
+  column-gap: 17px;
+  margin: 19px 24px 0 24px;
+  align-items: center;
+}
+
+/* .modal__header 
+      display: flex
+      column-gap: 17px
+      margin: 19px 24px 0 24px
+      align-items: center
+ */

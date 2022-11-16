@@ -1,0 +1,20 @@
+.nav__item {
+  letter-spacing: -0.2px;
+  white-space: nowrap;
+}
+
+.nav__item:hover {
+  outline: 2px solid #b8ffec;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+/* .nav__item {
+   letter-spacing: -0.2px
+   white-space: nowrap
+      
+      &:hover
+          outline: 2px solid #b8ffec
+          border-radius: 6px
+          background-color: #fff
+} */

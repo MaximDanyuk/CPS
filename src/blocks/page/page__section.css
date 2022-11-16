@@ -1,0 +1,41 @@
+.main__section {
+  padding: 0 16px;
+  margin-top: 24px;
+}
+
+.main__section:last-child {
+  margin-top: 40px;
+}
+
+@media (min-width: 738px) {
+  .main__section {
+    padding: 0 34px;
+    margin-top: 32px;
+  }
+
+  .main__section:last-child {
+    margin-top: 80px;
+  }
+}
+
+/* 
+.main__section {
+    padding: 0 16px
+    margin-top: 24px
+
+    &:last-child 
+      margin-top: 40px
+}
+
+
+
+@media (min-width: 738px) {
+  .main__section {
+     padding: 0 34px
+     margin-top: 32px
+
+     &:last-child 
+        margin-top: 80px
+  }
+}
+*/

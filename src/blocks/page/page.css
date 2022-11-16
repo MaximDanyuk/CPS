@@ -1,0 +1,92 @@
+h1,
+p,
+li,
+ul,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+fieldset {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  background-color: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.page {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1120px;
+  font-family: TTLakes;
+  font-weight: 300;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 1120px) {
+  .page {
+    margin-left: 320px;
+  }
+}
+
+/* 
+h1,
+p,
+li,
+ul,
+h2,
+h3 
+   padding: 0
+   margin: 0
+   list-style-type: none
+
+
+a 
+   text-decoration: none
+
+
+button,
+fieldset 
+   border: 0
+   outline: 0
+   padding: 0
+   background-color: inherit
+
+
+.page 
+   width: 100%
+   min-width: 320px
+   max-width: 1120px
+   font-family: TTLakes
+   font-weight: 300
+   margin: 0 auto
+   background-color: #f2f2f2
+   padding-bottom: 25px
+
+
+@media (min-width: 1120px) {
+  .page 
+     margin-left: 320px
+  
+}
+
+*/

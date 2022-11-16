@@ -1,0 +1,12 @@
+.modal__logo {
+  display: block;
+  margin: 0;
+  flex-grow: 1;
+}
+
+/* .modal__logo 
+      display: block
+      margin: 0
+      flex-grow: 1
+
+ */

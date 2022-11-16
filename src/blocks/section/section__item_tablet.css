@@ -1,0 +1,24 @@
+@media (min-width: 738px) {
+  .section__item_tablet {
+    display: none;
+  }
+}
+
+@media (min-width: 1120px) {
+  .section__item_tablet {
+    display: block;
+  }
+}
+
+/* 
+@media (min-width: 738px) {
+  .section__item_tablet 
+     display: none
+}
+
+@media (min-width: 1120px) {
+  .section__item_tablet 
+     display: block
+}
+
+*/

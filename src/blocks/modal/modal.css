@@ -1,0 +1,23 @@
+.modal {
+  bottom: 0;
+  display: flex;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+/* .modal 
+      bottom: 0
+      display: flex
+      font-family: Inter, Arial, Helvetica, sans-serif
+      left: 0
+      opacity: 0
+      position: fixed
+      right: 0
+      top: 0
+      visibility: hidden
+*/

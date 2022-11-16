@@ -1,0 +1,150 @@
+.header__item:nth-child(5),
+.header__item:nth-child(6),
+.header__item:nth-child(7) {
+  display: none;
+}
+
+.header__item:nth-child(2) {
+  position: relative;
+}
+
+.header__item:nth-child(2)::after {
+  content: '';
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+  position: absolute;
+  top: 11px;
+  left: 112px;
+}
+
+@media (min-width: 600px) {
+  .header__item:nth-child(5),
+  .header__item:nth-child(6),
+  .header__item:nth-child(7) {
+    display: block;
+  }
+
+  .header__item:nth-child(2) {
+    flex-grow: 1;
+  }
+
+  .header__item:nth-child(2)::after {
+    content: '';
+    width: 0;
+    height: 0;
+  }
+
+  .header__item:nth-child(5),
+  .header__item:nth-child(1) {
+    position: relative;
+    margin-right: 17px;
+  }
+
+  .header__item:nth-child(5)::before,
+  .header__item:nth-child(1)::before {
+    content: '';
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    position: absolute;
+    top: 3px;
+    left: 56px;
+  }
+}
+
+@media (min-width: 738px) {
+  .header__item:nth-child(1),
+  .header__item:nth-child(2),
+  .header__item:nth-child(3),
+  .header__item:nth-child(4),
+  .header__item:nth-child(5) {
+    display: none;
+  }
+
+  .header__item:nth-child(6)::before,
+  .header__item:nth-child(2)::before {
+    content: '';
+    width: 0;
+    height: 0;
+  }
+}
+
+/* 
+.header__item {
+  &:nth-child(5),
+  &:nth-child(6),
+  &:nth-child(7) 
+    display: none
+
+
+  &:nth-child(2) 
+    position: relative
+
+
+  &:nth-child(2)::after 
+    content: ''
+    width: 2px
+    height: 32px
+    background-color: #eaeaea
+    position: absolute
+    top: 11px
+    left: 112px
+}
+
+    @media (min-width: 600px) {
+      .header__item {
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7)
+          display: block
+    
+  
+
+        &:nth-child(2) 
+          flex-grow: 1
+  
+
+        &:nth-child(2)::after 
+          content: ''
+          width: 0
+          height: 0
+  
+
+        &:nth-child(5),
+        &:nth-child(1) 
+          position: relative
+          margin-right: 17px
+  
+
+        &:nth-child(5)::before,
+        &:nth-child(1)::before 
+          content: ''
+          width: 2px
+          height: 32px
+          background-color: #eaeaea
+          position: absolute
+          top: 3px
+          left: 56px
+}
+}
+
+@media (min-width: 738px) {
+.header__item {
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3),
+  &:nth-child(4),
+  &:nth-child(5) 
+    display: none
+  
+
+  &:nth-child(6)::before,
+  &:nth-child(2)::before 
+    content: ''
+    width: 0
+    height: 0
+  
+}
+}
+*/

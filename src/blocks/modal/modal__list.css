@@ -1,0 +1,14 @@
+.modal__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  align-items: flex-start;
+}
+
+/* .modal__list 
+      display: flex
+      flex-direction: column
+      row-gap: 32px
+      align-items: flex-start
+
+ */

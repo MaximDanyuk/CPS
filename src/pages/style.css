@@ -1,0 +1,210 @@
+/* ..........vendor.......... */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/* ..........page.......... */
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/page__section.css);
+@import url(../blocks/page/page__navigation.css);
+@import url(../blocks/page/page__header.css);
+
+@import url(../blocks/header/header__items.css);
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/icon/icon__link.css);
+@import url(../blocks/icon/icon__text.css);
+@import url(../blocks/icon/icon.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/nav/nav__item.css);
+@import url(../blocks/nav/nav__items.css);
+@import url(../blocks/nav/nav__link.css);
+
+@import url(../blocks/section/section__content.css);
+@import url(../blocks/section/section__title.css);
+@import url(../blocks/section/section__items.css);
+@import url(../blocks/more-button/more-button__image.css);
+@import url(../blocks/services/services__text-content.css);
+@import url(../blocks/section/section__text-box_hidden.css);
+@import url(../blocks/section/section__text_regular.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/more-button/more-button__icon.css);
+@import url(../blocks/more-button/more-button__image-wrapper.css);
+@import url(../blocks/more-button/more-button__link-text.css);
+@import url(../blocks/more-button/more-button.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/navigation/navigation__title.css);
+@import url(../blocks/light-line/light-line.css);
+
+@import url(../blocks/modal/modal__list.css);
+@import url(../blocks/modal/modal__email.css);
+@import url(../blocks/modal/modal__header.css);
+@import url(../blocks/modal/modal__icon.css);
+@import url(../blocks/modal/modal__icons.css);
+
+@import url(../blocks/modal/modal__items.css);
+@import url(../blocks/modal/modal__langs.css);
+@import url(../blocks/modal/modal__link.css);
+@import url(../blocks/modal/modal__logo-wrapper.css);
+@import url(../blocks/modal/modal__logo.css);
+@import url(../blocks/modal/modal__number.css);
+@import url(../blocks/modal/modal__container.css);
+@import url(../blocks/modal/modal__item_active.css);
+@import url(../blocks/modal/modal__nav.css);
+@import url(../blocks/email/email__text.css);
+@import url(../blocks/email/email.css);
+@import url(../blocks/number/number__text.css);
+@import url(../blocks/number/number.css);
+@import url(../blocks/langs/langs.css);
+@import url(../blocks/langs/langs__text.css);
+@import url(../blocks/langs/langs__input.css);
+@import url(../blocks/langs/langs__text_active.css);
+@import url(../blocks/icon/icon__image-wrapper.css);
+
+@import url(../blocks/header/header__item.css);
+
+@import url(../blocks/brand/brand.css);
+@import url(../blocks/icon-arrow/icon-arrow.css);
+@import url(../blocks/brand/brand__more-button.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/services/services__icon_rotate.css);
+
+@import url(../blocks/section/section__text_visible.css);
+@import url(../blocks/section/section__item_invisible.css);
+@import url(../blocks/section/section__item_visible.css);
+
+@import url(../blocks/section/section__item_tablet.css);
+
+@import url(../blocks/icon/icon__button.css);
+
+@import url(../blocks/modal/modal.css);
+
+@import url(../blocks/modal/modal_opened.css);
+
+@import url(../blocks/modal/modal_opened_transparent.css);
+
+@import url(../blocks/page/page__menu.css);
+
+@import url(../blocks/menu/menu.css);
+
+@import url(../blocks/technic/technic__items.css);
+
+@import url(../blocks/technic/technic__more-button.css);
+
+@import url(../blocks/section/section__item_desctop.css);
+@import url(../blocks/section/section__text_light.css);
+
+@import url(../blocks/tech-type/tech-type.css);
+
+@import url(../blocks/tech-type/tech-type__elem.css);
+
+@import url(../blocks/tech-type/tech-type__title.css);
+
+@import url(../blocks/price/price__link.css);
+
+@import url(../blocks/price/price__text.css);
+
+@import url(../blocks/footer/footer__link.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/technic/technic__item_invisible.css);
+
+@import url(../blocks/technic/technic__item_visible.css);
+
+@import url(../blocks/feedback/feedback.css);
+
+@import url(../blocks/page/page__feedback.css);
+
+@import url(../blocks/feedback/feedback__form.css);
+
+@import url(../blocks/modal/modal__title.css);
+
+@import url(../blocks/feedback/feedback__inputs.css);
+
+@import url(../blocks/modal/modal__input.css);
+
+@import url(../blocks/modal/modal__input_type_big.css);
+
+@import url(../blocks/modal/modal__text.css);
+
+@import url(../blocks/modal/modal__form.css);
+
+@import url(../blocks/modal/modal__button_type-submit.css);
+
+@import url(../blocks/feedback/feedback__close_btn.css);
+
+@import url(../blocks/menu/menu__link.css);
+
+@import url(../blocks/modal/modal__item.css);
+
+.button-arrow {
+  height: 10px;
+  width: 6px;
+}
+
+.price__link {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.modal__button_type-submit {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.button-arrow_light {
+  fill: #fff;
+}
+
+@media (min-width: 1120px) {
+  .menu-modal {
+    display: flex;
+  }
+
+  .modal__items > .modal__close_btn {
+    display: none;
+  }
+}
+
+.section-slider .swiper-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  /*   width: auto; */
+  z-index: 1;
+}
+
+.section-slider .swiper-slide {
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  transition-property: transform;
+  width: auto;
+}
+
+.section__item {
+  width: auto !important;
+}
+
+.section-slider {
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.swiper-pagination {
+  bottom: 3px !important;
+  overflow: visible;
+}
+
+.technic,
+.section-brands {
+  padding-bottom: 27px;
+}
