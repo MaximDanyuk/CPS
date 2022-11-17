@@ -8,14 +8,14 @@
     16px 0px 52px rgb(14 24 80 / 20%);
   height: 100vh;
   display: flex;
-  display: none;
   flex-direction: column;
 }
 
-@media (min-width: 1120px) {
+/* @media (min-width: 1120px) {
   .menu-modal {
     display: flex;
     visibility: visible;
     opacity: 1;
   }
 }
+ */

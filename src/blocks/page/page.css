@@ -42,12 +42,6 @@ button:hover {
   padding-bottom: 25px;
 }
 
-@media (min-width: 1120px) {
-  .page {
-    margin-left: 320px;
-  }
-}
-
 /* 
 h1,
 p,

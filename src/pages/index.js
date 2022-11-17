@@ -116,8 +116,6 @@ new Swiper('.section-slider', {
 
   slideToClickedSlide: true,
 
-  loop: true,
-
   keyboard: {
     enabled: true,
 
