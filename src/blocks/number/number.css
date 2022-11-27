@@ -5,8 +5,9 @@
   font-weight: 900;
   letter-spacing: -0.6px;
   cursor: pointer;
+  transition: opacity 0.3s;
 }
 
-/* .number 
-      display: block
- */
+.number:hover {
+  opacity: 0.7;
+}

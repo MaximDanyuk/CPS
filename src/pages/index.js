@@ -8,7 +8,6 @@ import {
   iconFeedback,
   burgerIcon,
 } from '../utils/constants.js';
-
 import Swiper, { Navigation, Pagination } from 'swiper';
 // import Swiper and modules styles
 import 'swiper/css';
@@ -140,7 +139,6 @@ new Swiper('.section-slider', {
     notificationClass: 'swiper-notification',
   },
 
-  enabled: true,
   breakpoints: {
     320: {
       slidesPerGroup: 1,
@@ -148,27 +146,5 @@ new Swiper('.section-slider', {
     600: {
       slidesPerGroup: 3,
     },
-
-    738: {
-      enabled: false,
-    },
   },
 });
-
-if (window.matchMedia('(min-width: 738px)').matches) {
-  document.querySelector('.section-brands').classList.remove('section-slider');
-  document.querySelector('.technic').classList.remove('section-slider');
-  let slideLists = Array.from(document.querySelectorAll('.section__items'));
-  let slideElements = Array.from(document.querySelectorAll('.section__item'));
-
-  slideLists.forEach((elem) => elem.classList.remove('swiper-wrapper'));
-  slideElements.forEach((elem) => elem.classList.remove('swiper-slide'));
-} else {
-  document.querySelector('.section-brands').classList.add('section-slider');
-  document.querySelector('.technic').classList.add('section-slider');
-  let slideLists = Array.from(document.querySelectorAll('.section__items'));
-  let slideElements = Array.from(document.querySelectorAll('.section__item'));
-
-  slideLists.forEach((elem) => elem.classList.add('swiper-wrapper'));
-  slideElements.forEach((elem) => elem.classList.add('swiper-slide'));
-}

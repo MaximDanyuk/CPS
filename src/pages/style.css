@@ -1,7 +1,7 @@
 /* ..........vendor.......... */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
+@import url(../vendor/swiper/swiper.css);
 /* ..........page.......... */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/page__section.css);
@@ -55,7 +55,6 @@
 @import url(../blocks/modal/modal__nav.css);
 @import url(../blocks/email/email__text.css);
 @import url(../blocks/email/email.css);
-@import url(../blocks/number/number__text.css);
 @import url(../blocks/number/number.css);
 @import url(../blocks/langs/langs.css);
 @import url(../blocks/langs/langs__text.css);
@@ -95,7 +94,6 @@
 
 @import url(../blocks/technic/technic__more-button.css);
 
-@import url(../blocks/section/section__item_desctop.css);
 @import url(../blocks/section/section__text_light.css);
 
 @import url(../blocks/tech-type/tech-type.css);
@@ -114,8 +112,9 @@
 
 @import url(../blocks/technic/technic__item_invisible.css);
 
-@import url(../blocks/technic/technic__item_visible.css);
+@import url(../blocks/section/section__item_desctop.css);
 
+@import url(../blocks/technic/technic__item_visible.css);
 @import url(../blocks/feedback/feedback.css);
 
 @import url(../blocks/page/page__feedback.css);
@@ -169,36 +168,6 @@
   }
 }
  */
-.section-slider .swiper-wrapper {
-  box-sizing: border-box;
-  position: relative;
-  /*   width: auto; */
-  z-index: 1;
-}
-
-.section-slider .swiper-slide {
-  flex-shrink: 0;
-  height: auto;
-  position: relative;
-  transition-property: transform;
-  width: auto;
-}
-
-.section__item {
-  width: auto !important;
-}
-
-.section-slider {
-  box-sizing: border-box;
-  width: 100%;
-  overflow-x: hidden;
-  position: relative;
-}
-
-.swiper-pagination {
-  bottom: 3px !important;
-  overflow: visible;
-}
 
 .technic,
 .section-brands {
@@ -340,6 +309,19 @@
   }
 
   .section-price__title_visible {
+    display: block;
+  }
+}
+
+.section_visible {
+  display: none;
+}
+
+@media (min-width: 738px) {
+  .section_invisible {
+    display: none;
+  }
+  .section_visible {
     display: block;
   }
 }

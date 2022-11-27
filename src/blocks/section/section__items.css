@@ -10,7 +10,7 @@
   .section__items {
     column-gap: 24px;
     row-gap: 16px;
-    grid-template-columns: repeat(auto-fill, 224px);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     margin-top: 24px;
   }
 }

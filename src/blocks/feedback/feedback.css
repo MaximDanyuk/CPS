@@ -1,5 +1,6 @@
 .feedback__container {
   padding: 100px 16px;
+  overflow: visible;
 }
 
 @media (min-width: 600px) {

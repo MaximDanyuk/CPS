@@ -1,0 +1,38 @@
+.section-slider .swiper-wrapper {
+  box-sizing: border-box;
+  position: relative;
+  /*   width: auto; */
+  z-index: 1;
+}
+
+.section-slider .swiper-slide {
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  transition-property: transform;
+  width: auto;
+}
+
+.section__item {
+  width: auto !important;
+}
+
+.section-slider {
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.swiper-pagination {
+  bottom: 3px !important;
+  overflow: visible;
+}
+
+.swiper-pagination-bullet {
+  background-color: #8a8a8a !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #b5b6bc !important;
+}
