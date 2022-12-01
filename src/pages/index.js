@@ -8,11 +8,10 @@ import {
   iconFeedback,
   burgerIcon,
 } from '../utils/constants.js';
-import Swiper, { Navigation, Pagination } from 'swiper';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
+import checker from '../vendor/swiper/swiper.js';
+
+checker();
 
 /// Функция раскрытия доп информации
 function showMore({
@@ -24,16 +23,14 @@ function showMore({
   newButtonText,
   oldButtonText,
 }) {
-  /// Находим все скрытые элементы
-  const hiddenItems = Array.from(
-    document.querySelectorAll(hiddenElementsSelector)
-  );
+  /// Находим скрытый родитель
+  const hiddenArea = document.querySelector(hiddenElementsSelector);
   /// Находим текст кнопки
   const buttonText = document.querySelector(buttonTextSelector);
   /// Находим стрелку у кнопки
   const buttonMoreArrow = document.querySelector(buttonArrowSelector);
   /// Проходимся по всем скрытым и добавляем класс видимости
-  hiddenItems.forEach((elem) => elem.classList.toggle(visibleElementsSelector));
+  hiddenArea.classList.toggle(visibleElementsSelector);
   /// Переворачиваем стрелку
   buttonMoreArrow.classList.toggle(servicesIconSelector);
   /// Если стрелка перевернутая, т е кнопку нажали, текст меняем на текст открытой кнопки
@@ -45,8 +42,8 @@ function showMore({
 
 brandsButtonMore.addEventListener('click', () =>
   showMore({
-    hiddenElementsSelector: '.section__item_invisible',
-    visibleElementsSelector: 'section__item_visible',
+    hiddenElementsSelector: '.section__items-brands',
+    visibleElementsSelector: 'section__items_visible',
     buttonArrowSelector: '.brands__icon',
     servicesIconSelector: 'services__icon_rotate',
     buttonTextSelector: '.brands__link-text',
@@ -69,8 +66,8 @@ servicesButton.addEventListener('click', () =>
 
 technicButton.addEventListener('click', () =>
   showMore({
-    hiddenElementsSelector: '.technic__item_invisible',
-    visibleElementsSelector: 'technic__item_visible',
+    hiddenElementsSelector: '.technic__items',
+    visibleElementsSelector: 'section__items_visible',
     buttonArrowSelector: '.technic__icon',
     servicesIconSelector: 'services__icon_rotate',
     buttonTextSelector: '.technic__link-text',
@@ -102,49 +99,6 @@ burgerIcon.addEventListener('click', () => {
   burgerPopup.open();
 });
 
-new Swiper('.section-slider', {
-  modules: [Navigation, Pagination],
-
-  pagination: {
-    el: '.swiper-pagination',
-
-    clickable: true,
-  },
-
-  dynamicBullets: true,
-
-  slideToClickedSlide: true,
-
-  keyboard: {
-    enabled: true,
-
-    onlyInViewport: true,
-  },
-
-  slidesPerView: 'auto',
-
-  initialSlide: 1,
-
-  freeMode: true,
-
-  a11y: {
-    enabled: true,
-
-    prevSlideMessage: 'Предыдущий слайд',
-    nextSlideMessage: 'Следующий слайд',
-    firstSlideMessage: 'Это первый слайд',
-    lastSlideMessage: 'Это последний слайд',
-    paginationBulletMessage: 'Перейти на слайд {{index}}',
-    containerMessage: 'Это слайдер брендов, с которыми мы работаем',
-    notificationClass: 'swiper-notification',
-  },
-
-  breakpoints: {
-    320: {
-      slidesPerGroup: 1,
-    },
-    600: {
-      slidesPerGroup: 3,
-    },
-  },
+window.addEventListener('resize', () => {
+  checker();
 });

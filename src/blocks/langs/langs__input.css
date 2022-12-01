@@ -4,7 +4,6 @@
   height: 1px;
   overflow: hidden;
   visibility: hidden;
-  cursor: pointer;
 }
 
 .langs__input:checked + .langs__text {

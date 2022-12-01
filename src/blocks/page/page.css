@@ -22,13 +22,18 @@ fieldset {
   background-color: inherit;
 }
 
-button {
+button,
+label {
   cursor: pointer;
+}
+
+* {
   transition: opacity 0.3s;
 }
 
-button:hover {
-  opacity: 0.7;
+button:hover,
+label:hover {
+  opacity: 0.5;
 }
 
 .page {

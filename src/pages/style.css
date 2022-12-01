@@ -51,7 +51,6 @@
 @import url(../blocks/modal/modal__logo.css);
 @import url(../blocks/modal/modal__number.css);
 @import url(../blocks/modal/modal__container.css);
-@import url(../blocks/modal/modal__item_active.css);
 @import url(../blocks/modal/modal__nav.css);
 @import url(../blocks/email/email__text.css);
 @import url(../blocks/email/email.css);
@@ -75,8 +74,6 @@
 @import url(../blocks/section/section__text_visible.css);
 @import url(../blocks/section/section__item_invisible.css);
 @import url(../blocks/section/section__item_visible.css);
-
-@import url(../blocks/section/section__item_tablet.css);
 
 @import url(../blocks/icon/icon__button.css);
 
@@ -141,6 +138,10 @@
 
 @import url(../blocks/modal/modal__item.css);
 
+.tech-type__title {
+  margin-right: 20px;
+}
+
 .button-arrow {
   height: 10px;
   width: 6px;
@@ -168,11 +169,6 @@
   }
 }
  */
-
-.technic,
-.section-brands {
-  padding-bottom: 27px;
-}
 
 .section-price__elem {
   display: flex;
@@ -217,7 +213,7 @@
   column-gap: 28px;
   background: #ffffff;
   border-radius: 6px;
-  min-width: 200px;
+  min-width: 200px !important;
   padding: 16px;
   align-items: center;
 }
@@ -237,28 +233,21 @@
 .section-price__list {
   display: flex;
   column-gap: 16px;
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
   margin-top: 16px;
-}
-
-.section-price__list::-webkit-scrollbar {
-  width: 0;
-  height: 0;
 }
 
 .section-price__item:nth-child(1) {
   display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 738px) {
   .section-price__title {
     display: none;
   }
 
   .section-price__item {
     grid-template-areas: none;
+    width: auto !important;
     grid-template-columns:
       minmax(auto, 468px) minmax(74px, auto) minmax(81px, auto)
       119px;
@@ -274,6 +263,7 @@
     padding: 0 16px;
     background-color: #ffffff;
     overflow: visible;
+    border-radius: 6px;
   }
 
   .section-price__button {
@@ -300,10 +290,6 @@
     justify-self: start;
   }
 
-  .section-price__list {
-    border-radius: 6px;
-  }
-
   .section-price__item:nth-child(1) {
     display: grid;
   }
@@ -313,15 +299,40 @@
   }
 }
 
+.section__slider__wrapper {
+  padding-bottom: 30px;
+}
+
 .section_visible {
   display: none;
 }
 
+.section__item:hover {
+  outline: 1px solid #ffe0e9;
+  border-radius: 6px;
+}
+
+.icon-arrow__img {
+  margin-left: 20px;
+}
+
 @media (min-width: 738px) {
+  .icon-arrow__img {
+    margin-left: 0;
+  }
+
   .section_invisible {
     display: none;
   }
   .section_visible {
     display: block;
   }
+
+  .tech-type__title {
+    margin-right: 0;
+  }
+}
+
+.swiper-pagination_invisible {
+  display: none;
 }

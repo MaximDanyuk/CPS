@@ -14,6 +14,11 @@
   }
 }
 
+.technic__items_visible {
+  height: auto;
+  visibility: visible;
+}
+
 /* 
 .technic__items 
    grid-template-columns: repeat(3, 240px)

@@ -1,14 +1,12 @@
 .page__menu {
-  background-color: #ffffff;
-  width: 320px;
+  /*   background-color: #ffffff;
+    width: 320px;  */
   position: fixed;
   top: 0;
   left: 0;
-  box-shadow: -2px 0px 4px rgb(69 79 126 / 2%),
-    16px 0px 52px rgb(14 24 80 / 20%);
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /*   display: flex;
+  flex-direction: column; */
 }
 
 /* @media (min-width: 1120px) {

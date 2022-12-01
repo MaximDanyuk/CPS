@@ -1,16 +1,22 @@
 .main__section {
   padding: 0 16px;
   margin-top: 24px;
+  padding-bottom: 27px;
 }
 
-.main__section:last-child {
-  margin-top: 24px;
+.page__footer {
+  padding: 0 16px;
 }
 
 @media (min-width: 738px) {
   .main__section {
     padding: 0 34px;
     margin-top: 32px;
+  }
+
+  .page__footer {
+    margin-top: 32px;
+    padding: 0 34px;
   }
 }
 
