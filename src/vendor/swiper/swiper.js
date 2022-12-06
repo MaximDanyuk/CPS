@@ -19,6 +19,7 @@ function sliderinit() {
         },
         dynamicBullets: true,
         slideToClickedSlide: true,
+        spaceBetween: 16,
         keyboard: {
           enabled: true,
           onlyInViewport: true,

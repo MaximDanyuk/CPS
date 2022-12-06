@@ -30,6 +30,7 @@
 
   .section-slider .swiper-wrapper {
     display: grid;
+    transition-property: transform, max-height;
   }
 }
 
