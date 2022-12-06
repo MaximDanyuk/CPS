@@ -12,10 +12,6 @@
   width: 240px;
 }
 
-.section__item {
-  width: auto !important;
-}
-
 .section-slider {
   box-sizing: border-box;
   width: 100%;
@@ -31,6 +27,10 @@
   .section-slider .swiper-wrapper {
     display: grid;
     transition-property: transform, max-height;
+  }
+
+  .section__item {
+    width: auto !important;
   }
 }
 
