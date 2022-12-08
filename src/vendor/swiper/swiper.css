@@ -46,3 +46,11 @@
 .swiper-pagination-bullet-active {
   background-color: #b5b6bc !important;
 }
+
+.section-slider__wrapper {
+  padding-bottom: 30px;
+}
+
+.swiper-pagination_invisible {
+  display: none;
+}

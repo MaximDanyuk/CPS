@@ -40,28 +40,20 @@ module.exports = {
       },
       // добавьте ещё одно правило:
       {
-        // применять это правило только к CSS-файлам
-        test: /\.css$/,
+        // применять это правило только к файлам типа - в test
+        test: /.s[ac]ss$/i,
         // при обработке этих файлов нужно использовать
-        // MiniCssExtractPlugin.loader и css-loader
+        // MiniCssExtractPlugin.loader, css-loader + sass и post
         use: [
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
             options: {
-              importLoaders: 1,
+              importLoaders: 2,
             },
           },
           'postcss-loader',
-        ],
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          MiniCssExtractPlugin.loader, // Extract css to separate file
-          'css-loader', // translates CSS into CommonJS
-          'postcss-loader', // parse CSS and add vendor prefixes to CSS rules
-          'sass-loader', // compiles Sass to CSS, using Node Sass by default
+          'sass-loader',
         ],
       },
     ],

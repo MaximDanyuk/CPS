@@ -1,0 +1,36 @@
+.section-price__item {
+  display: grid
+  grid-template-areas: 'service service' 'price price' 'date order'
+  row-gap: 16px
+  column-gap: 28px
+  background: #ffffff
+  border-radius: 6px
+  min-width: 200px !important
+  padding: 16px
+  align-items: center
+
+&:nth-child(1) 
+   display: none
+
+}
+
+  @media (min-width: 738px) {
+  .section-price__item {
+     grid-template-areas: none
+     width: auto !important
+     grid-template-columns:
+      minmax(auto, 468px) minmax(74px, auto) minmax(81px, auto)
+      119px
+     column-gap: 40px
+     border-radius: 0
+     position: relative
+     padding: 16px 0
+     border-bottom: 1px solid #eaeaea
+
+&:nth-child(1) 
+    display: grid
+  
+
+
+  }
+  }

@@ -1,0 +1,24 @@
+ .nav__list {
+    list-style-type: none
+    display: flex
+    overflow: auto
+    -ms-overflow-style: none
+    scrollbar-width: none
+    border-left: rgba(248, 248, 248, 0.3) solid 5px;
+    border-right: rgba(248, 248, 248, 0.3) solid 5px;
+
+   
+        &::-webkit-scrollbar 
+           width: 0
+           height: 0
+}
+
+@media (min-width: 738px) {
+  .nav__list 
+     overflow: visible
+     flex-wrap: wrap
+     column-gap: 15px
+     border: none
+  
+}
+ 

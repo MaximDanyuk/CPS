@@ -1,4 +1,5 @@
 import './style.css';
+import './style.sass';
 import Popup from '../components/Popup.js';
 import {
   brandsButtonMore,
