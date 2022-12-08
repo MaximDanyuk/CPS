@@ -1,4 +1,3 @@
-# «CPS» - проектная работа для [Kata.Academy](https://kata.academy)
 
 ## О проекте
 
