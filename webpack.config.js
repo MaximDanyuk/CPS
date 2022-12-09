@@ -32,6 +32,7 @@ module.exports = {
         use: 'babel-loader',
         // исключает папку node_modules, файлы в ней обрабатывать не нужно
         exclude: '/node_modules/',
+        include: path.resolve(__dirname, '/src'),
       },
       {
         // регулярное выражение, которое ищет все файлы с такими расширениями
@@ -46,15 +47,12 @@ module.exports = {
         // MiniCssExtractPlugin.loader, css-loader + sass и post
         use: [
           MiniCssExtractPlugin.loader,
-          {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 2,
-            },
-          },
+          'css-loader',
           'postcss-loader',
           'sass-loader',
         ],
+        exclude: '/node_modules/',
+        include: path.resolve(__dirname, '/src'),
       },
     ],
   },
@@ -62,8 +60,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html', // путь к файлу index.html
     }),
-    new CleanWebpackPlugin(), // использовали плагин
-    new MiniCssExtractPlugin(), // подключение плагина для объединения файлов
+    new CleanWebpackPlugin(),
+    new MiniCssExtractPlugin(),
   ],
 };
 // указали в какой файл будет собираться весь js и дали ему имя
