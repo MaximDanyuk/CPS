@@ -39,12 +39,8 @@ module.exports = {
         test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
         type: 'asset/resource',
       },
-      // добавьте ещё одно правило:
       {
-        // применять это правило только к файлам типа - в test
-        test: /.s[ac]ss$/i,
-        // при обработке этих файлов нужно использовать
-        // MiniCssExtractPlugin.loader, css-loader + sass и post
+        test: /\.scss$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -52,7 +48,7 @@ module.exports = {
           'sass-loader',
         ],
         exclude: '/node_modules/',
-        include: path.resolve(__dirname, '/src'),
+        include: path.resolve(__dirname, './src'),
       },
     ],
   },

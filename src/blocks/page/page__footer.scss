@@ -1,0 +1,10 @@
+.page__footer {
+  padding: 0 16px;
+}
+
+@media (min-width: 738px) {
+  .page__footer {
+    margin-top: 32px;
+    padding: 0 34px;
+  }
+}

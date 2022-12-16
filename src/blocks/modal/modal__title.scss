@@ -1,0 +1,7 @@
+.modal__title {
+  position: relative;
+}
+
+.modal__title::before {
+  @include light-line(-2px, -16px);
+}

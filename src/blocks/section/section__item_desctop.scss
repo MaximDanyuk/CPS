@@ -1,0 +1,9 @@
+.section__item_desctop {
+  display: none;
+}
+
+@media (min-width: 1120px) {
+  .section__item_desctop {
+    display: block;
+  }
+}

@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  align-items: center;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 738px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 235px;
+    column-gap: 35px;
+  }
+}

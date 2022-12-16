@@ -1,0 +1,13 @@
+.section-price__link {
+  margin-top: 16px;
+  margin-right: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  transition: opacity 0.3s;
+}
+
+.section-price__link:hover {
+  opacity: 0.5;
+}

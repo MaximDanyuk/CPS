@@ -1,0 +1,155 @@
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+@import url('../vendor/swiper/swiper.scss');
+@import url('../vendor/fonts/fonts.scss');
+@import url('../vendor/normalize.scss');
+
+@import url('../blocks/page/page.scss');
+@import url('../blocks/page/page__section.scss');
+@import url('../blocks/page/page__nav.scss');
+@import url('../blocks/page/page__header.scss');
+@import url('../blocks/page/page__footer.scss');
+@import url('../blocks/header/header__logo.scss');
+@import url('../blocks/header/header__items.scss');
+@import url('../blocks/header/header.scss');
+@import url('../blocks/icon/icon__link.scss');
+@import url('../blocks/icon/icon__text.scss');
+@import url('../blocks/icon/icon.scss');
+@import url('../blocks/logo/logo.scss');
+@import url('../blocks/nav/nav__item.scss');
+@import url('../blocks/nav/nav__list.scss');
+@import url('../blocks/nav/nav__link.scss');
+@import url('../blocks/section/section__content.scss');
+@import url('../blocks/section/section__title.scss');
+@import url('../blocks/section/section__items.scss');
+@import url('../blocks/more-button/more-button__image.scss');
+@import url('../blocks/services/services__text-content.scss');
+@import url('../blocks/section/section__text-box_hidden.scss');
+@import url('../blocks/section/section__text_regular.scss');
+@import url('../blocks/section/section__item.scss');
+@import url('../blocks/services/services.scss');
+@import url('../blocks/more-button/more-button__icon.scss');
+@import url('../blocks/section/section__content-image-wrapper.scss');
+@import url('../blocks/more-button/more-button__link-text.scss');
+@import url('../blocks/more-button/more-button.scss');
+
+@import url('../blocks/title/title.scss');
+@import url('../blocks/navigation/navigation__title.scss');
+
+@import url('../blocks/modal/modal__list.scss');
+@import url('../blocks/modal/modal__email.scss');
+@import url('../blocks/modal/modal__header.scss');
+@import url('../blocks/modal/modal__icon.scss');
+@import url('../blocks/modal/modal__icons.scss');
+
+@import url('../blocks/modal/modal__items.scss');
+@import url('../blocks/modal/modal__langs.scss');
+@import url('../blocks/modal/modal__link.scss');
+@import url('../blocks/modal/modal__logo-wrapper.scss');
+@import url('../blocks/modal/modal__logo.scss');
+@import url('../blocks/modal/modal__number.scss');
+@import url('../blocks/modal/modal__container.scss');
+@import url('../blocks/modal/modal__nav.scss');
+@import url('../blocks/email/email.scss');
+@import url('../blocks/number/number.scss');
+@import url('../blocks/langs/langs.scss');
+@import url('../blocks/langs/langs__text.scss');
+@import url('../blocks/langs/langs__input.scss');
+@import url('../blocks/langs/langs__text_active.scss');
+@import url('../blocks/icon/icon__image-wrapper.scss');
+
+@import url('../blocks/header/header__item.scss');
+
+@import url('../blocks/brand/brand.scss');
+@import url('../blocks/icon-arrow/icon-arrow.scss');
+@import url('../blocks/icon-arrow/icon-arrow__img.scss');
+@import url('../blocks/brand/brand__more-button.scss');
+
+@import url('../blocks/main/main.scss');
+
+@import url('../blocks/services/services__icon_rotate.scss');
+
+@import url('../blocks/section/section__text_visible.scss');
+@import url('../blocks/section/section__item_invisible.scss');
+@import url('../blocks/section/section__item_visible.scss');
+
+@import url('../blocks/icon/icon__button.scss');
+
+@import url('../blocks/modal/modal.scss');
+
+@import url('../blocks/modal/modal_opened.scss');
+
+@import url('../blocks/modal/modal_opened_transparent.scss');
+
+@import url('../blocks/page/page__menu.scss');
+
+@import url('../blocks/menu/menu__container.scss');
+
+@import url('../blocks/technic/technic__items.scss');
+
+@import url('../blocks/technic/technic__more-button.scss');
+
+@import url('../blocks/section/section__text_light.scss');
+
+@import url('../blocks/tech-type/tech-type.scss');
+
+@import url('../blocks/tech-type/tech-type__elem.scss');
+
+@import url('../blocks/tech-type/tech-type__title.scss');
+
+@import url('../blocks/section-price/section-price__link.scss');
+
+@import url('../blocks/section-price/section-price__text.scss');
+
+@import url('../blocks/section-price/section-price__elem.scss');
+
+@import url('../blocks/section-price/section-price__title.scss');
+
+@import url('../blocks/section-price/section-price__value.scss');
+
+@import url('../blocks/section-price/section-price__button.scss');
+
+@import url('../blocks/section-price/section-price__item.scss');
+
+@import url('../blocks/section-price/section-price__list.scss');
+
+@import url('../blocks/footer/footer__link.scss');
+
+@import url('../blocks/footer/footer.scss');
+
+@import url('../blocks/technic/technic__item_invisible.scss');
+
+@import url('../blocks/section/section__item_desctop.scss');
+
+@import url('../blocks/technic/technic__item_visible.scss');
+
+@import url('../blocks/feedback/feedback__container.scss');
+
+@import url('../blocks/page/page__feedback.scss');
+
+@import url('../blocks/feedback/feedback__form.scss');
+
+@import url('../blocks/modal/modal__title.scss');
+
+@import url('../blocks/feedback/feedback__inputs.scss');
+
+@import url('../blocks/modal/modal__input.scss');
+
+@import url('../blocks/modal/modal__input_type_big.scss');
+
+@import url('../blocks/modal/modal__text.scss');
+
+@import url('../blocks/modal/modal__form.scss');
+
+@import url('../blocks/modal/modal__button_type-submit.scss');
+
+@import url('../blocks/feedback/feedback__close_btn.scss');
+
+@import url('../blocks/menu/menu__link.scss');
+
+@import url('../blocks/modal/modal__item.scss');
+
+@import url('../blocks/button-arrow/button-arrow.scss');
+
+@import url('../blocks/button-arrow/button-arrow_light.scss');

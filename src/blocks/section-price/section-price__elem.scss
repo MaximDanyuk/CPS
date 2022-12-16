@@ -1,0 +1,35 @@
+.section-price__elem {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.section-price__elem:nth-child(1) {
+  grid-area: service;
+}
+.section-price__elem:nth-child(2) {
+  grid-area: price;
+}
+.section-price__elem:nth-child(3) {
+  grid-area: date;
+}
+
+@media (min-width: 738px) {
+  .section-price__elem:nth-child(1) {
+    grid-area: auto;
+    align-self: center;
+    justify-self: start;
+  }
+
+  .section-price__elem:nth-child(2) {
+    grid-area: auto;
+    align-self: center;
+    justify-self: start;
+  }
+
+  .section-price__elem:nth-child(3) {
+    grid-area: auto;
+    align-self: center;
+    justify-self: start;
+  }
+}

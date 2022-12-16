@@ -1,0 +1,10 @@
+.icon__text {
+  display: none;
+}
+
+@media (min-width: 738px) {
+  .icon__text {
+    cursor: pointer;
+    display: block;
+  }
+}

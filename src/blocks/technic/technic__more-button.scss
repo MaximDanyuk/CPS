@@ -1,0 +1,10 @@
+.technic__more-button {
+  margin-top: 20px;
+  display: none;
+}
+
+@media (min-width: 738px) {
+  .technic__more-button {
+    display: flex;
+  }
+}

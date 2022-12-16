@@ -1,0 +1,11 @@
+.heander__title {
+  padding-left: 20px;
+}
+
+@media (min-width: 738px) {
+  .heander__title {
+    order: -1;
+    flex-grow: 1;
+    padding-left: 30px;
+  }
+}

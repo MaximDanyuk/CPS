@@ -1,0 +1,12 @@
+.main__section {
+  padding: 0 16px;
+  margin-top: 24px;
+  padding-bottom: 27px;
+}
+
+@media (min-width: 738px) {
+  .main__section {
+    padding: 0 34px;
+    margin-top: 32px;
+  }
+}

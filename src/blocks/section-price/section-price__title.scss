@@ -1,0 +1,12 @@
+.section-price__title {
+  font-size: 14px;
+  line-height: 16px;
+  color: #7e7e82;
+  opacity: 0.72;
+}
+
+@media (min-width: 738px) {
+  .section-price__title {
+    display: none;
+  }
+}

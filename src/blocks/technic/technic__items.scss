@@ -1,0 +1,20 @@
+.technic__items {
+  grid-template-columns: repeat(3, 240px);
+}
+
+.technic__items_visible {
+  height: auto;
+  visibility: visible;
+}
+
+@media (min-width: 738px) {
+  .technic__items {
+    grid-template-columns: repeat(3, minmax(199px, 1fr));
+  }
+}
+
+@media (min-width: 1120px) {
+  .technic__items {
+    grid-template-columns: repeat(4, 240px);
+  }
+}
