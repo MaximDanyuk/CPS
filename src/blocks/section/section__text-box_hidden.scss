@@ -6,18 +6,18 @@
   overflow: hidden;
 }
 
-.section__text-box_visible {
-  height: auto;
-}
-
 @media (min-width: 600px) {
   .section__text-box {
-    height: 166px;
+    height: 134px;
   }
 }
 
 @media (min-width: 1120px) {
   .section__text-box {
-    height: 134px;
+    height: 99px;
   }
+}
+
+.section__text-box_visible {
+  height: auto;
 }

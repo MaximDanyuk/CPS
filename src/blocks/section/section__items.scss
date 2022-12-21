@@ -31,6 +31,6 @@
 @media (min-width: 1120px) {
   .section__items {
     column-gap: 30px;
-    grid-template-columns: repeat(auto-fill, 240px);
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
 }

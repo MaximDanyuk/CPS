@@ -15,6 +15,6 @@
 
 @media (min-width: 1120px) {
   .technic__items {
-    grid-template-columns: repeat(4, 240px);
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   }
 }

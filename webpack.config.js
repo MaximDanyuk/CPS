@@ -46,7 +46,9 @@ module.exports = {
           'css-loader',
           'postcss-loader',
           'sass-loader',
+          'mixin-loader',
         ],
+
         exclude: '/node_modules/',
         include: path.resolve(__dirname, './src'),
       },
